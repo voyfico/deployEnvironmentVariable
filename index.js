@@ -31,12 +31,12 @@ app.get("/multiply/:number", (req, res) => {
 
 // Task 3 -
 // When an unspecified endpoint is given, there should be an error message with status 404 'Route Unknown'. Default is 404
-export const errorHandler = (error, req, res,  next) => {
+/* export const errorHandler = (error, req, res,  next) => {
   error.status = 404;
   if (!req.route) {
   }
   
-}
+} */
 
 
 app.listen(PORT, () => {
